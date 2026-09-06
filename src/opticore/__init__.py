@@ -1,2 +1,4 @@
-"""OptiCore — 骨架阶段; 实现随母项目 Task 2/3 落地迁入."""
+"""OptiCore — 领域无关优化内核 (纯几何启发 / 引擎骨架); 母项目为其消费者."""
 __version__ = "0.1.0"
+
+from opticore.heuristics import nn2opt_open, two_opt, best_insert, worst_edge  # noqa: F401
